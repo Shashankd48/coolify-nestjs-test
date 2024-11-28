@@ -9,4 +9,12 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
+
+  @Get('status')
+  async getStatus() {
+    return {
+      name: 'Shashank Dubey',
+      age: 24,
+    };
+  }
 }
