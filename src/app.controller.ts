@@ -17,4 +17,12 @@ export class AppController {
       age: 24,
     };
   }
+
+  @Get('vikas')
+  async getVikas() {
+    return {
+      name: 'Vikas Panday',
+      age: 24,
+    };
+  }
 }
