@@ -22,7 +22,7 @@ export class AppController {
   async getVikas() {
     return {
       name: 'Vikas Panday',
-      age: 24,
+      age: 28,
     };
   }
 }
